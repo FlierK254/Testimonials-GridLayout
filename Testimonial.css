@@ -4,15 +4,18 @@
     display: flex;
     justify-content: center;
     background-color:hsl(0, 0%, 81%);
+    align-content: center;
 }
 .container{
-    width: 70%;
-    height: 70%;
+    align-content: center;
+    width: 90%;
+    height: 40%;
+
     display: grid;
-    gap: 30px;
+    gap: 10px;
     
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(2, ifr);
+    grid-template-columns: repeat(4 ,ifr);
     grid-template-areas: 
      "one one two three"
      "four five five three"
@@ -50,6 +53,7 @@
     padding: 10px;
     border-radius: 10px;
 
+
 }
 .container-five{
     grid-area: five;
@@ -63,4 +67,47 @@
 .photo{
     padding: 10px;
     display: flex;
+    gap: 10px;
+    
+}
+p{
+    color: hsl(150, 23%, 60%);
+}
+h4{
+    color: white;
+}
+.daniel{
+    line-height: 5px;
+    margin-top: 10px;
+}
+#image1{
+    border-radius: 20px;
+}
+#image2{
+    border-radius: 20px;
+}
+#image3{
+    border-radius: 20px;
+}
+#image4{
+    border-radius: 20px;
+}
+#image5{
+    border-radius: 20px;
+}
+.Patrick{
+    line-height: 5px;
+    margin-top: 10px;
+}
+.Harmon{
+    line-height: 5px;
+    margin-top: 10px;
+}
+.Kira{
+    line-height: 5px;
+    margin-top: 10px;
+}
+.jonathan{
+    line-height: 5px;
+    margin-top: 10px;
 }
